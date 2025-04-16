@@ -45,39 +45,39 @@
 - [ ] 3 Fehler im vorhandenen Code finden und korrigieren
 - [ ] Korrekturen in **separaten Commits** dokumentieren
 
-- [X] push Branch 'bug_hunt' auf den remote Server
-- [X] merge Branch 'bug_hunt' zurück in den main Branch
+- [ ] push Branch 'bug_hunt' auf den remote Server
+- [ ] merge Branch 'bug_hunt' zurück in den main Branch
 
 ### Branch: `drink`
 - [ ] Klasse `Cocktail` erstellen (implementiert `Drink`-Interface)
   - Konstruktor mit `String name` und `List<Liquid> ingredients`
   - Funktionalität für beliebige Zutaten implementieren
 
-- [X] push Branch 'drink' auf den remote Server
-- [X] merge Branch 'drink' zurück in den main Branch
+- [ ] push Branch 'drink' auf den remote Server
+- [ ] merge Branch 'drink' zurück in den main Branch
 
 ### Branch: `queue`
 - [ ] Klasse `DrinkQueue` implementieren (verwaltet `Drink`-Objekte)
   - Methoden auf Teammitglieder aufteilen
   - Jedes Mitglied arbeitet in **eigenem Sub-Branch** (`queue_mitgliedname`)
   - Sub-Branches in `queue` mergen
-- [X] push Branch 'queue' auf den remote Server
-- [X] merge Branch 'queue' zurück in den main Branch
+- [ ] push Branch 'queue' auf den remote Server
+- [ ] merge Branch 'queue' zurück in den main Branch
 
 ### Branch: `javadoc`
 - [ ] JavaDoc für **alle Klassen/Methoden** erstellen:
   - Vorhandene Klassen aus der Vorlage
   - Neu implementierte Klassen (`Cocktail`, `DrinkQueue`)
-- [X] push Branch 'javadoc' auf den remote Server
-- [X] merge Branch 'javadoc' zurück in den main Branch
+- [ ] push Branch 'javadoc' auf den remote Server
+- [ ] merge Branch 'javadoc' zurück in den main Branch
 
 ### Branch: `tests`
 - [ ] Tests für alle Klassen erstellen (100% Coverage)
   - Testdateien nach Schema `ClassNameTest.java` benennen
   - `mvn test` muss fehlerfrei laufen
   - Jacoco-Report generieren
-- [X] push Branch 'tests' auf den remote Server
-- [X] merge Branch 'tests' zurück in den main Branch
+- [ ] push Branch 'tests' auf den remote Server
+- [ ] merge Branch 'tests' zurück in den main Branch
 
 
 ### Branch: `maven_site`
@@ -85,8 +85,8 @@
 - [ ] Projektinfos und Teststatistiken integrieren
 - [ ] Pro Mitglied eine `memberX.md` mit Beitragsbeschreibung erstellen
 - [ ] `mvn site` erfolgreich ausführen
-- [X] push Branch 'maven_site' auf den remote Server
-- [X] merge Branch 'maven_site' zurück in den main Branch
+- [ ] push Branch 'maven_site' auf den remote Server
+- [ ] merge Branch 'maven_site' zurück in den main Branch
 
 ### Abschluss
 - [ ] **Alle Branches** in `main` mergen
