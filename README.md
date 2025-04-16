@@ -34,7 +34,7 @@
 - [X] merge Branch 'readme' zurück in den main Branch
 
 ### Branch: `maven_detail`
-- [ ] `pom.xml` erweitern:
+- [X] `pom.xml` erweitern:
   - Notwendige Abhängigkeiten hinzufügen
   - Entwickler:innen-Infos aller Mitglieder eintragen
   - Git-Repository-URL hinterlegen
