@@ -24,7 +24,7 @@ public interface IQueue {
    
   String peek();
 
-  // element is to peek what remove is to poll
+  // Similar to peek(), but throws NoSuchElementException if the queue is empty
   
   String element();
 }
