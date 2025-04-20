@@ -1,12 +1,10 @@
 package at.fhj.msd;
-
-// put into drinkss
+// put into drinks package
 public class Liquid {
     //name of the liquid
     private String name;
 
-    // volume in ml
-    // 1 l = 1000 ml     
+    // volume in Liters 
     private double volume;
 
     // alcohol percent (e.g., 42.0 means 42%)
