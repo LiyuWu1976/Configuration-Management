@@ -4,47 +4,40 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-// there's some Bugs included, try to debug the code and fix the Bugs
-// there are different Bugs, wrong implementation, typos, ...
-// write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
-
 public class StringQueue implements IQueue {
 
-  private List<String> elements = new ArrayList<String>();
+  private List<String> elements = new ArrayList<>();
   private int maxSize = 5;
 
   public StringQueue(int maxsize) {
-    maxSize = maxSize;
+    maxSize = maxsize; //fix the bug here, it should be maxsize
   }
 
   @Override
   public boolean offer(String obj) {
-    if (elements.size() != maxSize)
-      elements.add(obj);
-    else
-      return false;
-
-    return true;
+    if (elements.size() < maxSize) //fix the bug here, it should be < maxSize
+      {elements.add(obj);
+      return true;
+    } else{
+      return false; //fix the bug here, it should return false if the size is >= maxSize
+    }
   }
 
   @Override
   public String poll() {
     String element = peek();
-
     if (elements.size() == 0) {
-      elements.remove(0);
+      return null; //fix the bug here, when the size is 0, it should return null
     }
-
-    return element;
+    return elements.remove(0); //fix the bug here, it should remove the first element
   }
 
   @Override
   public String remove() {
     String element = poll();
-    element = "";
+    //element = ""; //fix the bug here, this statement should not exist
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
-
     return element;
   }
 
@@ -52,11 +45,9 @@ public class StringQueue implements IQueue {
   public String peek() {
     String element;
     if (elements.size() > 0)
-      element = elements.get(0);
+      return elements.get(0);
     else
-      element = null;
-
-    return element;
+      return null;    
   }
 
   @Override
@@ -67,5 +58,4 @@ public class StringQueue implements IQueue {
 
     return element;
   }
-
-}s
+}
