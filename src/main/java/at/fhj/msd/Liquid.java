@@ -10,6 +10,7 @@ public class Liquid {
     private double volume;
 
     /** Alcohol content in percent (e.g. 42.0 means 42%) */
+
     private double alcoholPercent;
 
     /**
