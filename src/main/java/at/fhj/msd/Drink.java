@@ -1,15 +1,14 @@
 package at.fhj.msd;
 
 /**
- * Abstract base class for concrete drink classes
+ * Interface for concrete drink classes
  */
 public interface Drink {
 
 
     /**
-     *
+     * Gets the name of the drink
      * @param name return the name of the drink
-     *
      */
     String getName();
 
