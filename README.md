@@ -42,19 +42,19 @@
 - [X] merge Branch 'maven_detail' zurück in den main Branch
 
 ### Branch: `bug_hunt`
-- [ ] 3 Fehler im vorhandenen Code finden und korrigieren
-- [ ] Korrekturen in **separaten Commits** dokumentieren
+- [X] 3 Fehler im vorhandenen Code finden und korrigieren
+- [X] Korrekturen in **separaten Commits** dokumentieren
 
-- [ ] push Branch 'bug_hunt' auf den remote Server
-- [ ] merge Branch 'bug_hunt' zurück in den main Branch
+- [X] push Branch 'bug_hunt' auf den remote Server
+- [X] merge Branch 'bug_hunt' zurück in den main Branch
 
 ### Branch: `drink`
-- [ ] Klasse `Cocktail` erstellen (implementiert `Drink`-Interface)
+- [X] Klasse `Cocktail` erstellen (implementiert `Drink`-Interface)
   - Konstruktor mit `String name` und `List<Liquid> ingredients`
   - Funktionalität für beliebige Zutaten implementieren
 
-- [ ] push Branch 'drink' auf den remote Server
-- [ ] merge Branch 'drink' zurück in den main Branch
+- [X] push Branch 'drink' auf den remote Server
+- [X] merge Branch 'drink' zurück in den main Branch
 
 ### Branch: `queue`
 - [ ] Klasse `DrinkQueue` implementieren (verwaltet `Drink`-Objekte)
