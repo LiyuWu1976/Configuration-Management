@@ -12,7 +12,7 @@ public class StringQueue implements IQueue<String> {//Übergeben Sie StringQueue
   /**
      * The list storing the queue elements.
      */
-  private List<String> elements = new ArrayList<>();
+  protected  List<String> elements = new ArrayList<>();
   /**
      * The maximum number of elements the queue can hold.
      */
@@ -40,7 +40,7 @@ public class StringQueue implements IQueue<String> {//Übergeben Sie StringQueue
        return false;
       }
       elements.add(obj);
-      return false; 
+      return true; 
     
   }
 
