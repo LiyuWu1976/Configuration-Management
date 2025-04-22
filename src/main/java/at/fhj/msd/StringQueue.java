@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class StringQueue implements IQueue {
+public class StringQueue implements IQueue<String> {//Übergeben Sie StringQueue.java, um die generische Schnittstelle zu verwenden
 
   private List<String> elements = new ArrayList<>();
-  private int maxSize = 5;
+  private int maxSize;
 
   public StringQueue(int maxsize) {
     this.maxSize = maxsize; //Fix 1: this.maxSize = maxsize weist den Parameter korrekt dem Feld zu.
