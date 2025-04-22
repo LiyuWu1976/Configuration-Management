@@ -4,8 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class DrinkQueue implements IQueue<String>{
+/**
+ * A queue implementation for storing drinks with a fixed maximum size.
+ */
+public class DrinkQueue implements IQueue<Drink>{
+    /**
+     * The list storing the queue elements.
+     */
     private List<Drink> elements = new ArrayList<>();
+    /**
+     * The maximum number of drinks the queue can hold.
+     */
     private int maxSize;
 
     /**
@@ -70,7 +79,7 @@ public class DrinkQueue implements IQueue<String>{
      * @return the first drink, or null if the queue is empty
      */
     @Override
-    public String peek() {
+    public Drink peek() {
         if (elements.isEmpty()) {
             return null;
         }
