@@ -15,14 +15,30 @@
       <id>liyuwu</id>
       <name>Liyu Wu</name>
       <email>liyu.wu@edu.fh-joanneum.at</email>
+      <organization>FH JOANNEUM GmbH</organization>
       <url>https://github.com/LiyuWu1976</url>
       <roles>
         <role>Developer</role>
       </roles>
+      <timezone>Europe/Vienna</timezone>
     </developer>
+    <developer>
+      <id>Ali-Zolfaghari70</id>
+      <name>Ali Zolfaghari</name>
+      <email>ali.zolfaghari@edu.fh-joanneum.at</email>
+      <organization>FH JOANNEUM GmbH</organization>
+      <organizationUrl>https://github.com/Ali-Zolfaghari70</organizationUrl>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+    </developer>
+   
   </developers>
 
   <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
@@ -51,6 +67,11 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
   </dependencies>
 
   <build>
@@ -61,6 +82,15 @@
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.4.0</version>
         </plugin>
+        <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
