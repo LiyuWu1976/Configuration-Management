@@ -100,4 +100,11 @@ public class DrinkQueue implements IQueue<Drink>{
         }
         return drink;
     }
+   /**
+    * get queue elements
+    * @return elements
+    */
+    public List<Drink> getElements(){
+        return elements;
+    }
 }
