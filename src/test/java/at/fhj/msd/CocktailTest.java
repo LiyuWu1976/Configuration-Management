@@ -22,6 +22,10 @@ public class CocktailTest {
         );
         cocktail = new Cocktail("Screwdriver", liquids);
     }
+    @Test
+    void testName() {
+        assertEquals("Screwdriver", cocktail.getName());
+    }
 
     @Test
     void testGetVolume() {
@@ -37,6 +41,17 @@ public class CocktailTest {
     @Test
     void testIsAlcoholic() {
         assertTrue(cocktail.isAlcoholic());
+    }
+
+    @Test
+    void testNonAlcoholic() {
+        Cocktail juiceMix = new Cocktail("Juice Mix", Arrays.asList(
+                new Liquid("Apple Juice", 0.1, 0),
+                new Liquid("Orange Juice", 0.1, 0)
+        ));
+
+        assertFalse(juiceMix.isAlcoholic());
+        assertEquals(0.0, juiceMix.getAlcoholPercent(), 0.0001);
     }
 
     @Test
