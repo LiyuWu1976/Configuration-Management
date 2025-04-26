@@ -49,7 +49,7 @@
 - [X] merge Branch 'bug_hunt' zurück in den main Branch
 
 ### Branch: `drink`
-- [X] Klasse `Cocktail` erstellen (implementiert `Drink`-Interface)
+- [X] Klasse `Cocktail` erstellen 
   - Konstruktor mit `String name` und `List<Liquid> ingredients`
   - Funktionalität für beliebige Zutaten implementieren
 
