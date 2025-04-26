@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
  * A queue implementation for storing strings with a fixed maximum size.
  */
 
-public class StringQueue implements IQueue<String> {//Übergeben Sie StringQueue.java, um die generische Schnittstelle zu verwenden
+public class StringQueue implements IQueue<String> {
 
   /**
      * The list storing the queue elements.
@@ -23,10 +23,10 @@ public class StringQueue implements IQueue<String> {//Übergeben Sie StringQueue
      *
      * @param maxSize the maximum number of elements the queue can hold
      */
-  public StringQueue(int maxsize) {
-    this.maxSize = maxsize; //Fix 1: this.maxSize = maxsize weist den Parameter korrekt dem Feld zu.
+  public StringQueue(int maxSize) {
+    this.maxSize = maxSize; 
   }
-
+  
   /**
      * Adds  Adds a string to the queue.
      *
