@@ -57,42 +57,42 @@
 - [X] merge Branch 'drink' zurück in den main Branch
 
 ### Branch: `queue`
-- [ ] Klasse `DrinkQueue` implementieren (verwaltet `Drink`-Objekte)
+- [X] Klasse `DrinkQueue` implementieren (verwaltet `Drink`-Objekte)
   - Methoden auf Teammitglieder aufteilen
   - Jedes Mitglied arbeitet in **eigenem Sub-Branch** (`queue_mitgliedname`)
   - Sub-Branches in `queue` mergen
-- [ ] push Branch 'queue' auf den remote Server
-- [ ] merge Branch 'queue' zurück in den main Branch
+- [X] push Branch 'queue' auf den remote Server
+- [X] merge Branch 'queue' zurück in den main Branch
 
 ### Branch: `javadoc`
-- [ ] JavaDoc für **alle Klassen/Methoden** erstellen:
+- [X] JavaDoc für **alle Klassen/Methoden** erstellen:
   - Vorhandene Klassen aus der Vorlage
   - Neu implementierte Klassen (`Cocktail`, `DrinkQueue`)
-- [ ] push Branch 'javadoc' auf den remote Server
-- [ ] merge Branch 'javadoc' zurück in den main Branch
+- [X] push Branch 'javadoc' auf den remote Server
+- [X] merge Branch 'javadoc' zurück in den main Branch
 
 ### Branch: `tests`
-- [ ] Tests für alle Klassen erstellen (100% Coverage)
+- [X] Tests für alle Klassen erstellen (100% Coverage)
   - Testdateien nach Schema `ClassNameTest.java` benennen
   - `mvn test` muss fehlerfrei laufen
   - Jacoco-Report generieren
-- [ ] push Branch 'tests' auf den remote Server
-- [ ] merge Branch 'tests' zurück in den main Branch
+- [X] push Branch 'tests' auf den remote Server
+- [X] merge Branch 'tests' zurück in den main Branch
 
 
 ### Branch: `maven_site`
-- [ ] Maven-Site konfigurieren (`pom.xml`)
-- [ ] Projektinfos und Teststatistiken integrieren
-- [ ] Pro Mitglied eine `memberX.md` mit Beitragsbeschreibung erstellen
-- [ ] `mvn site` erfolgreich ausführen
-- [ ] push Branch 'maven_site' auf den remote Server
-- [ ] merge Branch 'maven_site' zurück in den main Branch
+- [X] Maven-Site konfigurieren (`pom.xml`)
+- [X] Projektinfos und Teststatistiken integrieren
+- [X] Pro Mitglied eine `memberX.md` mit Beitragsbeschreibung erstellen
+- [X] `mvn site` erfolgreich ausführen
+- [X] push Branch 'maven_site' auf den remote Server
+- [X] merge Branch 'maven_site' zurück in den main Branch
 
 ### Abschluss
-- [ ] **Alle Branches** in `main` mergen
-- [ ] Commit-History prüfen (`git log --oneline --graph --all`)
-- [ ] GitHub-Repository auf Vollständigkeit kontrollieren
-- [ ] Repository-Link in Moodle abgeben
+- [X] **Alle Branches** in `main` mergen
+- [X] Commit-History prüfen (`git log --oneline --graph --all`)
+- [X] GitHub-Repository auf Vollständigkeit kontrollieren
+- [X] Repository-Link in Moodle abgeben
 
 
 

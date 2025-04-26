@@ -1,23 +1,21 @@
 package at.fhj.msd;
 /**
- * Class represents a simple drink liquid which can be used in
- * drinks
+ * Represents a simple drink composed of a single liquid.
  */
-public class SimpleDrink implements Drink{
+public class SimpleDrink extends  Drink{
     /**
      * uses only one liquid
      */
     protected Liquid l;
-    protected String name;
+    
     /**
-     * Creates a SimpleDrink object with given name and
-     * liquid
+     * Creates a SimpleDrink object with given name and liquid
      *
      * @param name name of drink
      * @param l only liquid in drink
      */
-    SimpleDrink(String name, Liquid l){
-        this.name = name; //fixed bugs, delete super(name) because there is no super class
+    public SimpleDrink(String name, Liquid l){
+       super(name); 
         this.l = l;
     }
 
