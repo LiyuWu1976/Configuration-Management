@@ -1,0 +1,13 @@
+<project name="My Drink Project">
+  <body>
+    <menu name="Documentation">
+      <item name="Home" href="index.html"/>
+      <item name="LIYU_WU.md" href="../../src/site/markdown/LIYU_WU.md"/>
+      <item name="Ali_Zolfaghari.md" href="../../src/site/markdown/Ali_Zolfaghari.md"/>
+      <item name="Project Info" href="project-info.html"/>
+      <item name="Javadoc" href="apidocs/index.html"/>
+      <item name="Test Report" href="surefire-report.html"/>
+      <item name="Coverage Report" href="jacoco/index.html"/>
+    </menu>
+  </body>
+</project>
